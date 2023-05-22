@@ -19,10 +19,10 @@ add_library(MNN_CL SHARED IMPORTED)
 
 #set_target_properties(MNN
 #        PROPERTIES IMPORTED_LOCATION
-#        /Users/sonnn27.nxt/MNN/project/android/build_64/libMNN.so)
+#        /Users/sonnn27.nxt/MNN/project/android/build_64_android-sdk21-arm64-v8a/libMNN.so)
 #set_target_properties(MNN_CL
 #        PROPERTIES IMPORTED_LOCATION
-#        /Users/sonnn27.nxt/MNN/project/android/build_64/libMNN_CL.so)
+#        /Users/sonnn27.nxt/MNN/project/android/build_64_android-sdk21-arm64-v8a/libMNN_CL.so)
 set_target_properties(MNN
         PROPERTIES IMPORTED_LOCATION
         ${CMAKE_SOURCE_DIR}/jniLibs/${ANDROID_ABI}/libMNN.so)

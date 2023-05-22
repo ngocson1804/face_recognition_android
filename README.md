@@ -2,6 +2,7 @@
 ## 1. Download models
 1.1 Face detection model from [here](https://drive.google.com/file/d/1AdXZRfjU8nwDmK7ly7eQAFjSDwo4lh4B/view?usp=sharing) and copy it to app/src/main/assets <br />
 1.2 Face vectorization model from [here](https://drive.google.com/file/d/1KaAXd-QCiEJs3bVycZwqvV6e9Fs5SxeK/view?usp=sharing) and copy it to app/src/main/assets <br />
+1.3 Threshold: for r50-cosface model: if score >=  0.42199, it is the same person
 ## 2. Build app
 
 ## 3. if you need to build lib for MNN
