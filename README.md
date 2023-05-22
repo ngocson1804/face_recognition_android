@@ -13,3 +13,6 @@ Download android-ndk-r16 from [here](https://github.com/android/ndk/wiki/Unsuppo
 export ANDROID_NDK="/Users/sonnn27.nxt/WorkSpace/personal/android/android-ndk-r16b"
 ./ciscripts/Android/64.sh
 ```
+
+## 4. if you need to get different version of opencv-android-sdk
+Download android-ndk-r16 from [here](https://github.com/opencv/opencv/releases).Then copy  .so file in folder OpenCV-android-sdk/sdk/native/libs to jniLibs
